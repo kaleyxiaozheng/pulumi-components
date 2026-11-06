@@ -1,0 +1,17 @@
+{
+  "name": "@pulumi-components/ubuntu-template",
+  "version": "0.0.1",
+  "description": "A Pulumi project for deploying an Ubuntu template. This template deploys an Ubuntu 22.04 Jammy cloud-image VM on Proxmox VE",
+  "main": "index.js",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@muhlba91/pulumi-proxmox": "^8.6.0",
+    "@pulumi/pulumi": "^3.204.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "typescript": "^5.9.0"
+  }
+}

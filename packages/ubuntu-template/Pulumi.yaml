@@ -1,0 +1,7 @@
+name: ubuntu-template
+main: src/index.ts
+runtime:
+  name: nodejs
+  options:
+    typescript: true
+description: A Pulumi project for deploying an Ubuntu template. This template deploys an Ubuntu 22.04 Jammy cloud-image VM on Proxmox VE

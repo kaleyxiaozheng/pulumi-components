@@ -1,0 +1,17 @@
+config:
+  ubuntuTemplate:endpoint: https://192.168.50.100:8006/
+  ubuntuTemplate:insecure: "true"
+  ubuntuTemplate:nodeName: pve
+  ubuntuTemplate:vmId: "999"
+  ubuntuTemplate:vmName: ubuntu-template
+  ubuntuTemplate:datastoreId: local-lvm
+  ubuntuTemplate:imageDatastoreId: local
+  ubuntuTemplate:imageFileId: local:iso/jammy-server-cloudimg-amd64.img
+  ubuntuTemplate:downloadImage: "false"
+  ubuntuTemplate:bridge: vmbr0
+  ubuntuTemplate:memoryMb: "4096"
+  ubuntuTemplate:cpuCores: "2"
+  ubuntuTemplate:diskSizeGb: "32"
+  ubuntuTemplate:sshUsername: root
+  ubuntuTemplate:sshPublicKeyPath: ~/.ssh/id_ed25519.pub
+  ubuntuTemplate:sshPrivateKeyPath: ~/.ssh/id_ed25519
